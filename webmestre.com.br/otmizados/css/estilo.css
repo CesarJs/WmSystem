@@ -1,0 +1,91 @@
+*{padding:0;border:0;margin:0;}
+body{text-align:center;font-family:Century Gothic, sans-serif;}
+.sobrepor{float:left;background-color:darkblue;width:100%;color:white;padding:10%;opacity:1.9;}
+.sobrepor img{opacity:0.3;height:100%;margin-top:-10%;box-shadow:2px 2px 2px 2px red;}
+.sobrepor p{position:relative;float:left;margin-top:5%;}
+.sobrepor p a:hover{color:lightcoral;}
+#topo{display:block;position:fixed;top:0%;left:0%;z-index:1;width:100%;height:5.5em;background-color:white;border-top:2px outset gray;}
+#topo:hover{opacity:1;color:white;opacity:100;}
+#topo .logo{display:block;float:left;margin-left:1em;margin-top:0.5em;max-width:12em;}
+#topo .supDir{display:none;float:left;width:20%;margin-top:0.75em;}
+#topo nav{position:fixed;top:5%;left:15%;font-size:1.2em;margin-left:10vw;}
+#topo nav ul li{display:inline-block;text-decoration:none;}
+#topo nav ul li a{padding:0.5em;text-decoration:none;margin-left:1em;border-top:2px solid lightskyblue;border-radius:1em;color:darkblue;}#topo nav ul li a:hover{border-bottom:5px solid lightblue;color:white;background-color:darkblue;}
+#menuEsq{padding:0.3vw;width:15%;position:fixed;top:0;left:0;}
+#menuEsq ul{padding:1vw;width:100%;text-align:left;text-decoration:none;}
+#menuEsq ul li a{color:darkblue;text-decoration:none;width:100%;}
+#menuEsq ul li a:hover{color:white;border-collapse:collapse;}
+#menuEsq ul li{padding:0px 5px;width:50%;text-decoration:none;border-bottom:1px solid blue;border-radius:1vw;}
+#menuEsq ul li:hover{background-color:lightsteelblue;}
+#menuEsq img{width:60%;}
+.centro{margin-top:8.5em;margin-left:15%;width:80%;min-height:40em;}
+.centralizar{text-align:left;margin-top:8.5em;margin-left:15%;width:80%;min-height:40em;border:5px inset #00E9FE;}
+.capitulos{text-align:left;margin-top:8.5em;margin-left:15%;width:80%;border:5px inset #00E9FE;overflow:auto;}
+.
+.capitulos p{float:left;width:80%;text-align:justify;}
+.capitulos .cap footer{text-align:right;padding:2vw;}
+.btn-primary{margin-left:0.5vw;}
+.centro .central img{width:40%;min-width:30em;height:auto;float:left;padding:2%;}
+.centro .central p{text-align:justify;}
+.centro .esquerdo{position:absolute;margin-top:0.5em;background-color:darkblue;width:40%;margin-left:0%;height:24vw;border:7px outset black;font-family:Century Gothic, sans-serif;font-size:1.5vw;color:lightgoldenrodyellow;}
+.centro .esquerdo:hover{border-color:white;background-color:lightsteelblue;color:darkblue;box-shadow:1px 1px 1px 1px darkblue;cursor:pointer;}
+.centro .esquerdo h3{vertical-align:middle;font-weight:initial;}
+.centro .esquerdo h2{font-weight:initial;}
+.centro .direitoCima{position:absolute;margin-top:0.5vw;background-color:white;width:40%;margin-left:41.5%;height:11.5vw;border:5px outset black;text-align:center;}
+.centro .direitoCima:hover{background-color:lightsteelblue;border-color:darkblue;cursor:pointer;}
+.centro .direitoBaixo{overflow:auto;position:absolute;margin-top:13.0vw;background-color:white;width:40%;margin-left:41.5%;height:11.5vw;border:5px outset black;}
+.centro .direitoBaixo:hover{background-color:lightcoral;border-color:darkred;cursor:pointer;color:white;}
+.centro .direitoBaixo .lateral,.direitoCima .lateral{max-height:8.5vw;}
+.centro .direitoBaixo h2,.direitoCima h2{font-weight:initial;}
+.centro .direitoBaixo h3,.direitoCima h3{font-size:1.2em;font-weight:initial;}
+.aleartorio{overflow:auto;text-align:center;padding:4px;margin-top:0.1em;margin-left:15%;width:80%;min-height:10vw;}
+.tituloSection{padding:0.2em;width:30vw;margin-left:25%;background-color:white;color:darkblue;border-bottom:3px inset darkblue;-webkit-border-radius:1em;-moz-border-radius:12em;border-radius:4em;text-align:center;font-weight:initial;font-size:2vw;}
+.fAleartorio h2{font-weight:inherit;color:darkblue;}
+.aleartorio .fAleartorio{position:relative;padding:0.05em;width:23%;height:12vw;float:left;margin-top:1.2em;margin-left:1%;background-color:white;border:2px outset black;text-align:justify;word-wrap:break-word;overflow:hidden;text-overflow:ellipsis;}
+.aleartorio .fAleartorio:hover{position:absolute;width:80%;margin-left:1%;z-index:1;border:2px solid darkblue;background-color:lightskyblue;cursor:pointer;}
+.aleartorio .fAleartorio p , article , header{padding:1%;}
+.rodape{margin-top:1.5em;font-size:1vw;color:lightslategray;width:100%;height:2em;border-top:4px outset darkblue;background-color:white;border-radius:1vw;}
+.rodape a, a:visited ,a:hover,a:focus{color:lightslategrey;text-decoration:none;}
+.rodape img{float:left;height:5vw;}
+.slicknav_menu{display:none;}
+@media screen and (max-width:900px){.centro .central img{width:98%;}
+.tituloSection{font-size:1em;}
+.centro{margin-top:1em;}
+#topo{display:none;}
+#menuEsq{display:none;}
+.slicknav_menu{z-index:1;display:block;}
+.centro .direitoBaixo h2,.direitoCima h2{font-size:1.25em;float:right;width:100%;}
+.centro .direitoBaixo h3,.direitoCima h3{font-size:1.25em;float:right;width:100%;}
+.aleartorio .fAleartorio{width:48%;}
+.aleartorio .fAleartorio:hover{position:relative;width:48%;}
+.centro{overflow:auto;text-align:center;}
+.centro .esquerdo{font-size:2.5vw;position:relative;float:left;width:90%;margin-left:3%;}
+.centro .direitoCima,.centro .direitoBaixo{position:relative;margin-left:3%;margin-top:1em;width:43%;display:block;float:left;}
+.centro h1{display:none;}
+}
+.rodape{font-size:1.2vw;}
+.rodape img{width:4vw;height:auto;}
+@media screen and (max-width:600px){.centro .direitoBaixo .lateral,.direitoCima .lateral{float:left;width:100%;max-height:8.0em;}
+.centro .direitoBaixo h2,.direitoCima h2{font-size:1.25em;float:right;width:100%;}
+.centro .direitoBaixo h3,.direitoCima h3{font-size:1.25em;float:right;width:100%;}
+.aleartorio .fAleartorio{margin-left:5%;width:90%;}
+.aleartorio .fAleartorio:hover{position:relative;margin-left:5%;width:90%;}
+.aleartorio h2{display:block;}
+.centro{overflow:auto;text-align:center;}
+.centro .esquerdo{position:relative;float:left;width:90%;margin-left:3%;}
+.centro .direitoCima,.centro .direitoBaixo{position:relative;margin-left:3%;margin-top:1em;width:43%;height:13.0em;display:block;float:left;height:25vw;}
+.rodape{font-size:2.5vw;}
+.rodape img{width:12vw;height:auto;}
+}
+@media screen and (max-width:300px){.centro .direitoBaixo .lateral,.direitoCima .lateral{float:left;width:100%;max-height:3.5em;}
+.centro .direitoBaixo h2,.direitoCima h2{font-size:1.0em;float:right;width:100%;}
+.centro .direitoBaixo h3,.direitoCima h3{display:none;font-size:1.0em;float:right;width:100%;}
+.aleartorio .fAleartorio{margin-left:5%;width:90%;}
+.aleartorio h2{display:block;}
+.centro{overflow:auto;text-align:center;}
+.centro .esquerdo{font-size:1em;position:relative;float:left;width:90%;margin-left:3%;}
+.centro .esquerdo h3{display:none;}
+.centro .direitoCima,.centro .direitoBaixo{position:relative;margin-left:3%;margin-top:1em;width:90%;max-height:5.0em;display:block;float:left;}
+.rodape p{display:none;}
+.rodape{height:10px;background-color:lightsteelblue;}
+}
